@@ -1,11 +1,10 @@
+/*********** BODY ************/
+
 body{font-family: 'Helvetica', sans-serif;
 margin:0;
 color: #959595;}
 
-/*********** HEADER ************/
-
-
-
+/*Style the header*/
 h1 {
     text-align: center;
     padding: 20px;
@@ -15,7 +14,8 @@ h1 {
     font-weight: normal;
     margin:0;
 }
-/*********** Nav ************/
+
+/*********** NAV ************/
 /* Style the links inside the navigation bar */
 .topnav{
     text-align: center;
@@ -40,51 +40,22 @@ h1 {
     color: #ffaacc;
 }
 
-/*details*/
-.title{
-    text-align: center;
-    color:#959595;
-    font-size: 25px;
-    font-weight: lighter;
-    margin-top: 50px;
-    text-decoration: underline;
-    text-decoration-color: #ffaacc;
-}
-#container {
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 20px;
-    
-}
-
-.gallery {
-    margin: 30px;
-    float: left;
-    text-align: center;
-
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-#container2{
-    width: 80%;
-    text-align: left;
-    margin-left: 30px;
-    margin-top: 0px;
-    
-}
 .homecontent{
     margin-top: 60px;
     width: 90%;
     font-weight: lighter;
 
 }
+/*********** HOMEPAGE ************/
+
+/*Style the home-image*/
 .homecontent img{
     float: left;
     padding: 0px 0px 20px 100px;
 }
+
+/*Style the content floating to the right of the home-image*/
+
 .homecontent h2 {
     font-size: 30px;
     color: #A7C16D;
@@ -104,12 +75,58 @@ div.desc {
     background: #F3F3F3;
     border-radius: 3px;
 }
+
+/*Style the find us section on homepage*/
+
 .findus {
     background-image: url("images/findus.jpg");
     width: 100%;
     height: 444px;
     margin-top: 80px;
 }
+
+/*********** PRODUCTS ************/
+
+/*style the prodcut title*/
+.title{
+    text-align: center;
+    color:#959595;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-decoration-color: #ffaacc;
+}
+
+/* style the image grid */
+#container {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;   
+}
+
+.gallery {
+    margin: 30px;
+    float: left;
+    text-align: center;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* style the conatiner for product detail page */
+
+#container2{
+    width: 80%;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 0px;
+    
+}
+
+/*********** ABOUT US ************/
 
 .about {
     margin-top: 60px;
@@ -131,15 +148,16 @@ div.desc {
     font-weight: bold;
 }
 
+/*********** CONTACT US ************/
 
 .contact{
-    
+
     color: #767474;
     text-align: center;
     margin-left: 30%;
 }
 .contact div{
-padding-top: 100px;
+    padding-top: 100px;
     margin-top: 40px;
     font-weight: normal;
     font-size: 30px;
