@@ -41,62 +41,119 @@ h1 {
 }
 
 /*details*/
-h2{
+.title{
     text-align: center;
     color:#959595;
     font-size: 25px;
     font-weight: lighter;
     margin-top: 50px;
+    text-decoration: underline;
+    text-decoration-color: #ffaacc;
 }
 #container {
     margin: 0 auto;
     width: 80%;
-    margin-top: 50px;
-    font-weight: lighter;
-}
-
-#table { 
-    border-spacing: 100px 40px;
-    border-collapse: separate;
-    font-size: 20px;
-}
-#opennow  {
-    font-size: 30px;
-    color: #A7C16D;
-    margin-left: 40px;
-}
-.about{
-    margin-top: 60px;
-    margin-left: 60px;
-}
-
-.about p {
-    word-wrap: break-word;
-    width: 500px;
-    margin-left: 40px;
-    margin-top:0px;"
+    margin-top: 20px;
+    
 }
 
 .gallery {
-    margin: 40px;
+    margin: 30px;
     float: left;
     text-align: center;
-}
 
-.gallery:hover {
-    border: 1px solid #ffaacc;
 }
-
 
 div.desc {
     padding: 15px;
     text-align: center;
 }
-.Findus {
-    text-align: center;
+#container2{
+    width: 80%;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 0px;
+    
 }
+.homecontent{
+    margin-top: 60px;
+    width: 90%;
+    font-weight: lighter;
 
 }
+.homecontent img{
+    float: left;
+    padding: 0px 0px 20px 100px;
+}
+.homecontent h2 {
+    font-size: 30px;
+    color: #A7C16D;
+    float: left;
+    margin-top: 0px;
+    border: 2px solid #A7C16D;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.homecontent table { 
+    border-spacing: 80px 40px;
+    border-collapse: separate;
+    font-size: 20px;
+    float: left;
+    background: #F3F3F3;
+    border-radius: 3px;
+}
+.findus {
+    background-image: url("images/findus.jpg");
+    width: 100%;
+    height: 444px;
+    margin-top: 80px;
+}
+
+.about {
+    margin-top: 60px;
+    margin-left: 60px;
+    font-weight: lighter;
+}
+.about img{
+    float: left;
+    padding-right: 20px;
+}
+
+.about p {
+    width: 500px;
+    float: left;
+    line-height: 30px;
+    height: 365px;
+}
+.about div{
+    font-weight: bold;
+}
+
+
+.contact{
+    
+    color: #767474;
+    text-align: center;
+    margin-left: 30%;
+}
+.contact div{
+padding-top: 100px;
+    margin-top: 40px;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+}
+.contact p{
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 20px; 
+    line-height: 30PX; 
+    width: 50%;  
+}
+
 
 
 
