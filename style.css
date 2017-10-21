@@ -5,14 +5,25 @@ margin:0;
 color: #959595;}
 
 /*Style the header*/
-h1 {
+.header{
+    background-color: #ffaacc;
+}
+.header h1 {
     text-align: center;
     padding: 20px;
-    background-color: #ffaacc;
     color: white;
     font-family: 'Helvetica', sans-serif;
     font-weight: normal;
     margin:0;
+}
+.header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    float: right;
+    padding: 20px;
 }
 
 /*********** NAV ************/
@@ -133,19 +144,24 @@ div.desc {
     margin-left: 60px;
     font-weight: lighter;
 }
+
 .about img{
     float: left;
     padding-right: 20px;
 }
 
-.about p {
-    width: 500px;
+.about select{
     float: left;
-    line-height: 30px;
-    height: 365px;
+    font-size: 12px;
 }
-.about div{
-    font-weight: bold;
+.about span{
+    float: left;
+    padding-right: 20px;
+}
+.about button{
+    font-size: 15px;
+    float: left;
+
 }
 
 /*********** CONTACT US ************/
